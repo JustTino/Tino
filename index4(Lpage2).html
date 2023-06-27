@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style4.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!-- <script>
+
+    const more = document.getElementById("more")
+const dot = document.getElementById("dot")
+const text = document.getElementById("text")
+const btn = document.getElementById("btn")
+
+text.style.display = 'none'
+function showMore(){
+if(dot.style.display === "none"){
+    dot.style.display = "inline"
+    more.style.display = "none"
+
+    btn.innerHTML = "Read more"
+}
+else{
+    dot.style.display = "none"
+    more.style.display = "inline"
+    btn.innerHTML = "Show less"  
+}
+}
+function showMore2(){
+btn.style.backgroundColor = 'red'
+}
+
+btn.addEventListener("click", showMore )
+btn.addEventListener("click", showMore2 )
+</script> -->
+</head>
+<body>
+    
+    <div class="body1">
+        <nav>
+            <img src="Logo.svg" alt="">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Our mission</a></li>
+                <li><a href="">Business solution</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">How it works</a></li>
+            </ul>
+            <button>Sign in</button>
+        </nav>
+        <div class="body1-content">
+        <div class="body1-left">
+            <h1>Sending parcel for <br> less and fast.</h1>
+            <p>Track your package every step of the way with our advanced parcel tracking system, 
+                providing you with real time updates on status on your deliver, 
+                so you can stay informed and in control.</p>
+            <button>Create new account</button>
+        </div>
+        <div class="body1-right">
+            <img src="Delivery-pana 1.svg" alt="">
+        </div>
+        </div>
+    </div>
+
+    <div class="body2">
+        <div class="body2-left">
+            <h3>OUR MISSION</h3>
+            <h1>Creating a better <br> future together.</h1>
+            <p>We are commited to providing seamless and cost effective delivery experience.
+                 Connecting people from different part of Nigeria through our technology based platform. 
+                 Parcel drop strives to create an environmental friendly delivery platform where senders 
+                 and deliverer can connect and transact, with real life tracking of package to ensure 
+                 timely delivery.</p>
+        </div>
+        <div class="body2-right">
+            <img src="Image Placeholder.svg" alt="">
+        </div>
+    </div>
+    <div class="body3">
+        <img src="Group 19.svg" alt="">
+        <h3>ABOUT US</h3>
+        <h1>Experience the <br> difference</h1>
+        <span id="text">Parcel drop was founded in 2023 consisting of teams of passionate individuals 
+            who strongly believe that peer-to-peer delivery can change delivery system in Nigeria. 
+            We believe that the current parcel delivery <span id="dot">...</span> <span id="more">system in Nigeria. We believe that the current 
+            delivery system needs to be improved and streamlined to acheive maximum efficiency.
+            At parcel drop we are committed to providing a convenient and secure platform for 
+            both sender and deliverer to connect and complete deliveries. Our platform provides a 
+            simple and intuitive interface for both parties to communicate and collaborate. We believe 
+            that our platform will revolutionize the delivery industry in Nigeria and we are committed 
+            to providing and excellent and reliable service to our customers.
+            Thank you for choosing our platform, we make delivery as easy as ABC.</span> </span>
+            
+            <button id="btn">Read more</button>
+    </div>
+    <div class="body4">
+        <div class="body4-left">
+            <h3>BUSINESS SOLUTION.</h3>
+            <h1>Discover innovative <br> business solution.</h1>
+            <p>At parcel drop we are committed to ensure timely and secure delivery process. 
+                Through this type of delivery service user will be able to get deliveries done at 
+                a lower cost than the traditional delivery service. This creates jobs opportunities 
+                for deliverer which alleviates unemployment in Nigeria. We are a team of passionate
+                individuals who is looking forward to making delivery convenient without having the
+                 user leave his home.</p>
+        </div>
+        <div class="body4-right">
+            <img src="unsplash_Q80LYxv_Tbs.svg" alt="">
+        </div>
+    </div>
+    <div class="body5">
+        <h3>HOW IT WORKS</h3>
+        <h1>6 steps that help you <br> get your parcel.</h1>
+        <div class="body5-upper">
+            <div id="grid-up">
+                <div class="border-h5">
+                    <h5>1</h5>
+                    
+                </div>
+                <h4>Registration</h4>
+                <span>The user who wants to send  parcel can 
+                    create an account by providing neccessary information required,
+                    or login if the user has an existing parcel drop account.</span>
+            </div>
+            <div id="grid-up">
+                <div class="border-h5">
+                    <h5>2</h5>
+                    
+                </div>
+                <h4>Create a request</h4>
+                <span>The user creates a request by providing necessary details such 
+                    as its pickup location, description of the parcel. 
+                    If necessary the dimension and weight of the parcel.</span>
+            </div>
+            <div id="grid-up">
+                <div class="border-h5">
+                    <h5>3</h5>
+                    
+                </div>
+                <h4>Find a deliverer</h4>
+                <span>The user search for deliverers on the website who are travelling 
+                    to the same location u intend to send the parcel to. The deliverer can 
+                    view the details of the request, he can either accept or reject the request.</span>
+            </div>
+        </div>
+        <div class="body5-lower">
+            <div id="grid-up">
+                <div class="border-h5">
+                    <h5>4</h5>
+                    
+                </div>
+                <h4>Make Payment</h4>
+                <span>The user can make payment to the deliverer but the website holds the payment 
+                    in escrow until the delivery is successful.</span>
+            </div>
+            <div id="grid-up">
+                <div class="border-h5">
+                    <h5>5</h5>
+                    
+                </div>
+                <h4>Track parcel</h4>
+                <span>The user can track the parcel from the pickup stage till the delivery stage</span>
+            </div>
+            <div id="grid-up">
+                <div class="border-h5">
+                    <h5>6</h5>
+                    
+                </div>
+                <h4>Comfirm delivery</h4>
+                <span>Once the sender confirm the delivery the payment is now released to the deliverer.</span>
+            </div>
+        </div>
+    </div>
+    <div class="body6">
+        <h1>Experience a seamless <br> delivery process.</h1>
+        <span>Experience Seamless Delivery Process: Effortlessly Receive Your Orders with Our Smooth Delivery Experience.
+             Enjoy Hassle-Free Delivery of Your Products and Services, Every Time.</span>
+        <button>Create new account</button>
+    </div>
+    <footer>
+        <ul>
+            <li>Home</li>
+            <li>Our mission</li>
+            <li>Business solution</li>
+            <img src="Logo.svg" alt="">
+            <ul>
+            <li>About us</li>
+            <li>How it works</li>
+            </ul>
+        </ul>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
